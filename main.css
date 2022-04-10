@@ -1,0 +1,52 @@
+button,div{
+	font-size: 20px;
+}
+
+.denntaku-box{
+	background-color: cornflowerblue;
+  width: 316px;
+  height: auto;
+}
+
+.ans-box{
+	text-align: right;
+	background-color: black;
+	width: 316px;
+	height: 30px;
+	margin-bottom: 2px;
+}
+
+#ans{
+	color: white;
+	padding-right: 5px;
+}
+
+.button{
+  width: 316px;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button button{
+	background-color: #ededed;
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 5px;
+	text-align: center;
+	width: 77px;
+	height: 32px;
+	margin: 1px;
+}
+
+.button button:nth-last-of-type(1){
+	text-align: center;
+	width: 156px;
+	height: 30px;
+}
+
+.button button:nth-last-of-type(2){
+	text-align: center;
+	width: 156px;
+	height: 30px;
+}
